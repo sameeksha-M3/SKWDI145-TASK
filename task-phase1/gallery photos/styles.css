@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light background color for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Smooth edges */
+    overflow: hidden; /* Ensure inner content stays within bounds */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow effect on hover */
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 0; /* Ensure no extra rounding */
+    display: block; /* Ensure the image behaves like a block element */
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important; /* Ensure spacing between cards */
+}
+
+/* Optional: Add some spacing between rows */
+.row {
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+.row > .col-md-4 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
