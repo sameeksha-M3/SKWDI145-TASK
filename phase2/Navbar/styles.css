@@ -1,0 +1,26 @@
+/* Custom Navbar Styles */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Change color on hover */
+}
+
+.dropdown-menu {
+    background-color: #343a40; /* Dropdown menu background color */
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    background-color: #ffc107; /* Change background color on hover */
+    color: #343a40; /* Change text color on hover */
+}
