@@ -28,3 +28,12 @@ ii) Build a Navbar with Dropdown Menu: Create a navigation bar using
 Bootstrap's navbar component. Add a dropdown menu to the navbar using
 Bootstrap's dropdown classes. Customize the CSS to style the navbar and
 dropdown menu, such as changing colors and positioning.
+
+
+
+
+PHASE 3
+
+CREATE A CH ATTING APPLICATION/WEBSITE
+You can create a chat application or website to serve the purpose of
+individual or group chats between networks
